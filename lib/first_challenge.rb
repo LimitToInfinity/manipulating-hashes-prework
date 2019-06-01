@@ -13,7 +13,11 @@ def first_challenge
     }
   }
 
-  #your code here
+  contact.each do |name, info|
+    info.each do |category, inside_info|
+      inside_info.delete_if("strawberry")
+    end
+  end
 
 
   #remember to return your newly altered contacts hash!
