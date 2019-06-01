@@ -1,9 +1,9 @@
 def second_challenge
   groceries = {
-   dairy: ["milk", "yogurt", "cheese"],
-   vegetable: ["carrots", "broccoli", "cucumbers"],
-   meat: ["chicken", "steak", "salmon"],
-   grains: ["rice", "pasta"]
+  dairy: ["milk", "yogurt", "cheese"],
+  vegetable: ["carrots", "broccoli", "cucumbers"],
+  meat: ["chicken", "steak", "salmon"],
+  grains: ["rice", "pasta"]
   }
   
 =begin
@@ -12,7 +12,9 @@ def second_challenge
     category.each { |value| array << value }
   end
   array
-=end  
+=end
+
+
   
   
 end
