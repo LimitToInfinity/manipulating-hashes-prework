@@ -7,7 +7,7 @@ def second_challenge
   }
 
   groceries.each do |initial, category|
-    array = cateogry.values
+    array << cateogry.values
   end
   array
 end
