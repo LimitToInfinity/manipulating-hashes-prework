@@ -13,11 +13,10 @@ def first_challenge
     }
   }
   
-  favorite_icecream_flavors2 =[]
   contacts.each do |name, info|
     info.each do |category, inside_info|
       if inside_info == :favorite_icecream_flavors
-        favorite_icecream_flavors2 = inside_info.delete_if{ |value| value == "strawberry"}
+        inside_info = inside_info.delete_if{ |value| value == "strawberry"}
       end
     end
   end
