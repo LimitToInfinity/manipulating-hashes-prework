@@ -15,7 +15,7 @@ def first_challenge
 
   contact.each do |name, info|
     info.each do |category, inside_info|
-      inside_info.delete_if("strawberry")
+      info.delete_if("strawberry")
     end
   end
 
