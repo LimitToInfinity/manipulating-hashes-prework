@@ -5,6 +5,7 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
+  
   array =[]
   groceries.each do |initial, category|
     array << cateogry.values
