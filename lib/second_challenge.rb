@@ -14,7 +14,7 @@ def second_challenge
 
   new_array = []
   array = groceries.values
-    array.each { |category| category.each { |item| new_array << item } }
+  array.each { |category| category.each { |item| new_array << item } }
     
 
 end
