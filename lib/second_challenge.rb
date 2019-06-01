@@ -8,7 +8,7 @@ def second_challenge
   
   array = []
   groceries.each do |initial, category|
-    array << cateogry.values
+    array << category.values
   end
   array
 end
