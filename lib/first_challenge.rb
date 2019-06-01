@@ -15,8 +15,9 @@ def first_challenge
 
   contacts.each do |name, info|
     info.each do |category, inside_info|
-      if 
-      inside_info.delete_if{ |value| value == "strawberry"}
+      if inside_info == :favorite_icecream_flavors
+        inside_info.delete_if{ |value| value == "strawberry"}
+      end
     end
   end
 
