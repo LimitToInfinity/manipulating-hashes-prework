@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-  contact.each do |name, info|
+  contacts.each do |name, info|
     info.each do |category, inside_info|
       inside_info.delete_if{ |value| value == "strawberry"}
     end
